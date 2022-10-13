@@ -40,7 +40,7 @@ public class QuickSort {
 
     void sort(int[] arr, int l, int r) {
         if (l >= r) return;
-        //choose a rondom a point and put it for left head.
+        //choose a rondom a point and put it on left head.
         random(arr, l, r);
         int pIdx = partition(arr, l, r);
 
