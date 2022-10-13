@@ -21,6 +21,7 @@ public class QuickSort {
                }
            }
            swap(arr,i-1,l);
+           //return pivot index
            return i-1;
     }
     void sort(int[] arr, int l, int r){
