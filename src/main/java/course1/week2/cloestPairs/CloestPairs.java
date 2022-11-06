@@ -1,4 +1,4 @@
-package week2.cloestPairs;
+package course1.week2.cloestPairs;
 
 import javafx.util.Pair;
 

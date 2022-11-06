@@ -1,4 +1,4 @@
-package week2.inversions;
+package course1.week2.inversions;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -70,7 +70,7 @@ public class FindInversions {
 
     public static void main(String[] args) {
         System.out.println("cores is "+Runtime.getRuntime().availableProcessors());
-        int[] arr = getArrayFromFile("src/main/java/week2/inversions/IntegerArray.txt");
+        int[] arr = getArrayFromFile("src/main/java/course1/week2/inversions/IntegerArray.txt");
 
         long res = mergeSortAndCount(arr, 0, arr.length-1);
         //System.out.println(Arrays.toString(arr));

@@ -1,4 +1,4 @@
-package week4.KargerMinCut;
+package course1.week4.KargerMinCut;
 
 import java.util.ArrayList;
 import java.util.HashMap;

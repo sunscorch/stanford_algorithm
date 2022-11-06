@@ -1,4 +1,4 @@
-package week3;
+package course1.week3;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -97,7 +97,7 @@ public class Assignment {
     public static void main(String[] args) {
         Assignment q = new Assignment();
        //int[] arr = new int[]{ 2, 1};
-        int[] arr = getArrayFromFile("src//main/java/week3/Quicksort.txt");
+        int[] arr = getArrayFromFile("src/main/java/course1/week3/Quicksort.txt");
         q.sort(arr);
       // System.out.println(Arrays.toString(arr));
     }

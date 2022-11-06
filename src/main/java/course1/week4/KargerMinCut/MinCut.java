@@ -1,4 +1,4 @@
-package week4.KargerMinCut;
+package course1.week4.KargerMinCut;
 
 import org.apache.commons.lang.SerializationUtils;
 
@@ -6,10 +6,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -108,7 +105,7 @@ public class MinCut {
     public static void main(String[] args) {
 
          MinCut minCut = new MinCut();
-         Graph g1 = minCut.buildGraph("src/main/java/week4/KargerMinCut/kargerMinCut.txt");
+         Graph g1 = minCut.buildGraph("src/main/java/course1/week4/KargerMinCut/kargerMinCut.txt");
 
         System.out.println(minCut.minCut(g1));
     }
