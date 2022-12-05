@@ -19,9 +19,11 @@ public class Dijkstra {
     Dijkstra(Graph graph){
         this.graph = graph;
         this.visited = new BitSet(graph.size()+1);
+        //use +1 here just for the assignment
         parent = new int[graph.size()+1];
         Arrays.fill(parent,-1);
 
+        //use +1 here just for the assignment
         minCost = new int[graph.size()+1];
         Arrays.fill(minCost, Integer.MAX_VALUE);
     }
